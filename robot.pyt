@@ -18,7 +18,7 @@ current_count = 0
 batch_total = 0.0#hame daste 
 batch_count = 0 #daste shomares  
  
-# pardazesh az eleman  
+ 
 for index in range(0, total_values_to_process, 2): 
     current_count += 1 
     price = extract_price(price_elements[index]) 
@@ -31,3 +31,4 @@ for index in range(0, total_values_to_process, 2):
         print("-------------------------") 
         batch_total = 0 
         current_count = 0
+
